@@ -1,0 +1,173 @@
+*{
+    font-family: roboto;
+}
+.main-container{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(27, 27, 26, 0.721);
+
+}
+
+.content{
+    border-radius:10px;
+    background-color: white;
+    width: 350px;
+    height: 80vh;
+}
+.top-content{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 15px;
+}
+.arrow{
+    position: relative;
+    top: 6px;
+    left: 20px;
+}
+.Favourite{
+    position: relative;
+    left: 280px;
+    top: 6px;
+}
+.dot{
+    position: relative;
+    left: 300px;
+    top: 6px;
+}
+#dress-title{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: top 10px;
+
+}
+.review{
+    display:flex;
+    justify-content: center;
+    bottom:20px;
+    position: relative;
+ 
+}
+.review-text{
+    font-size: 10px;
+    color: rgb(66, 61, 61);
+    padding:3px;
+    
+}
+.main-img {
+    height :calc(250-20px);
+    width: 200px;
+    /* margin: 30px; */
+    margin-top: 15px;
+    background-color: #13133a;
+    position: relative;
+    bottom: 10px;
+    left: 77px;
+    border-radius: 10px;
+}
+.main-img img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    right: 30px;
+}
+.size-part span{
+    position: relative;
+    left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    
+}
+.size-item{
+    position: relative;
+    left: 30px;
+    top: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding: 9px;
+    padding-left: 1%;
+}
+.size{
+    border: 1px solid black;
+    height: 30px;
+    width: 40px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 9px;
+    border-radius: 8px;
+    color: rgb(66, 48, 48);
+}
+.color-part span{
+    position: relative;
+    left: 10px;
+    font-size: 14px;
+    font-weight:bold;
+    padding: 10px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    
+}
+.color-item{
+    position: relative;
+    left: 35px;
+    top: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top:6px;
+}
+.color-item div{
+    height: 20px;
+    width: 30px;
+    border-radius: 7px;
+}
+.color1{
+    
+    background-color: #c4a79a;
+}
+.color2{
+    
+    background-color: #4b6494;
+}
+.color3{
+   
+    background-color: #9562ae;
+}
+.color4{
+    
+    background-color: #b8273d;
+}
+.color5{
+    
+    background-color: #e85678;
+}
+.color6{
+    
+    background-color: #21ac15b5;
+}
+.Price{
+    font-weight:light;
+    font-size: 15px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.Price button{
+    font-size: 11px;
+    position:relative;
+    left: 180px;
+    color: rgb(139, 138, 138);
+    padding: 4px;
+    padding-left: 8px;
+    padding-right:9px;
+    border-radius: 3px;
+    background-color: rgb(39, 36, 36);
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            margin-left: 50px;
+        }
+        #email{
+            margin-left: 50px;
+        }
+        #password{
+            margin-left: 50px;
+        }
+        .chceckbox{
+            margin-left: 65px;
+        }
+        .checkbox2{
+            margin-left: 60;
+        }
+        .checkbox3{
+            margin-left: 25px;
+        }
+        .checkbox4{
+            margin-left: 60px;
+        }
+        #one{
+            margin-left: 60px;
+        }
+        #two{
+            margin-right: 80px;
+        }
+        #three{
+            margin-left: 70px;
+        }
+        #four{
+            margin-left: 70;
+        }
+        #five{
+            margin-left: 35px;
+        }
+        #image{
+            margin-left: 10px;
+            border-radius: 0px;
+        }
+        .button{
+            border: 1px solid black;
+            padding: 5px;
+            border-radius: 25px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        #location{
+            margin-left: 10px;
+        }
+        #submit{
+            border: 1px solid black;
+            padding: 5px;
+            border-radius: 25px;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-left: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1> My Feedback Form </h1>
+    <ul>
+        <li>
+           <label for="Firstname"> First Name </label>
+           <input type="text" placeholder="Enter First Name">
+        </li><br>
+        <li>
+            <label for="Email"> Email</label>
+            <input type="text" placeholder="Enter Email Address">
+
+        </li><br>
+        <li>
+            <label for="Password"> Password </label>
+            <input type="text" placeholder="Enter Your Password">
+
+        </li><br>
+        <li>
+            <label> Please check all the emotions that apply to you:</label>
+        </li>
+        <ul>
+            <li> Angry <input type="checkbox"></li>
+            <li> Sad <input type="checkbox"></li>
+            <li> Happy <input type="checkbox"></li>
+            <li> Ambivalent <input type="checkbox"></li>
+        </ul>
+    </ul>
+            <label> How satisfied were you with ur service?</label>
+        </li>
+        <ul>
+            <li> Very-satisfied <input type="radio"></li>
+            <li> Satisfied <input type="radio"></li>
+            <li> Didn't care <input type="radio"></li>
+            <li> Dissatisfied <input type="radio"></li>
+            <li> Very Dissatisfied <input type="radio"></li>
+        </ul>
+    </ul>
+    <ul>
+        <li> Further comments: <textarea name="comments" rows="3" cols="30" ></textarea></li>
+    </ul>
+    <ul>
+        <li>
+            <label for="">Big Photo:</label>
+            <input type="text">
+            <button class="">Choose.....</button>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <label for="">Location visted:</label> 
+            <input type="number"  placeholder="Select Location" id="Location">
+        </li>
+        <br>
+    </ul>
+    <li>
+        <input type="submit" id="submit">
+    </li>
+    
+</body>
+</html>
